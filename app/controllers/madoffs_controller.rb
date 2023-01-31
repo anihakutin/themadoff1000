@@ -4,7 +4,7 @@ class MadoffsController < ApplicationController
   before_action :set_madoff, only: :upvote
 
   def index
-    @madoffs = Madoff.order(upvotes: :desc).limit(1000)
+    @madoffs = Madoff.order(con_amount: :desc).limit(1000)
   end
 
   def new
