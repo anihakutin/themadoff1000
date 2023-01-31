@@ -1,0 +1,52 @@
+<%= form_with(model: madoff) do |form| %>
+  <% if madoff.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(madoff.errors.count, "error") %> prohibited this madoff from being saved:</h2>
+
+      <ul>
+        <% madoff.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :age, style: "display: block" %>
+    <%= form.number_field :age %>
+  </div>
+
+  <div>
+    <%= form.label :company_name, style: "display: block" %>
+    <%= form.text_field :company_name %>
+  </div>
+
+  <div>
+    <%= form.label :con, style: "display: block" %>
+    <%= form.text_field :con %>
+  </div>
+
+  <div>
+    <%= form.label :wiki_link, style: "display: block" %>
+    <%= form.text_field :wiki_link %>
+  </div>
+
+  <div>
+    <%= form.label :upvotes, style: "display: block" %>
+    <%= form.number_field :upvotes %>
+  </div>
+
+  <div>
+    <%= form.label :current_status, style: "display: block" %>
+    <%= form.text_field :current_status %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class Madoff < ApplicationRecord
+end
