@@ -7,4 +7,4 @@ Think about the Forbes list but for people who have scammed people out of their 
 Ironically many of these people first appeared on the Forbes 30 under 30 list or similar list.
 
 ## About the author
-Heshie Brody was a founding engineer at Capable Health until it ran out of money last week, he's open for work and can be reached at 4hbrody@gmail.com or on LinkedIn: https://www.linkedin.com/in/heshiebrody/
+Heshie Brody was a founding engineer at Capable Health until they ran out of money in January of 2023(Happy new years to me...), he's open for work and can be reached at 4hbrody@gmail.com or on LinkedIn: https://www.linkedin.com/in/heshiebrody/
