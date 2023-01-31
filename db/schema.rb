@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_31_041124) do
     t.string "company_name"
     t.string "con"
     t.string "wiki_link"
-    t.integer "upvotes"
+    t.integer "upvotes", default: 0
     t.string "current_status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

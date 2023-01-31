@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+
+ .madoff {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px;
+    padding: 5px;
+ }
+
+#madoffs {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  overflow: scroll;
+}
+
+#madoff-form {
+  margin: 5px;
+  width: 25%;
+  padding: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.right {
+  position: absolute;
+  right: 15px;
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+h1, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin: 10px;
+  background-color: beige;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+form div {
+  margin: 5px;
+}

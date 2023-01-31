@@ -1,14 +1,18 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Madoffs</h1>
-
-<div id="madoffs">
-  <% @madoffs.each do |madoff| %>
-    <%= render madoff %>
-    <p>
-      <%= link_to "Show this madoff", madoff %>
-    </p>
-  <% end %>
+<div id="header">
+  <h1>Madoffs</h1>
+  <h3>A power-ranking of all the best scammers, grifters, and con artists.</h3>
 </div>
 
-<%= link_to "New madoff", new_madoff_path %>
+<div id="madoff-form" class="right">
+  <%= turbo_frame_tag "new_madoff", src: new_madoff_path, target: "_top" %>
+</div>
+
+<%= turbo_frame_tag "upvote_madoffs" do %>
+  <div id="madoffs">
+    <% @madoffs.each do |madoff| %>
+      <%= render madoff %>
+    <% end %>
+  </div>
+<% end %>

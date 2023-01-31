@@ -8,7 +8,7 @@ class CreateMadoffs < ActiveRecord::Migration[7.0]
       t.string :company_name
       t.string :con
       t.string :wiki_link
-      t.integer :upvotes
+      t.integer :upvotes, default: 0
       t.string :current_status
 
       t.timestamps

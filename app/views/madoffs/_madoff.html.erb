@@ -1,4 +1,5 @@
-<div id="<%= dom_id madoff %>">
+
+<div id="<%= dom_id madoff %>" class="madoff">
   <p>
     <strong>Name:</strong>
     <%= madoff.name %>
@@ -21,13 +22,16 @@
 
   <p>
     <strong>Wiki link:</strong>
-    <%= madoff.wiki_link %>
+    <%= link_to("Wikipedia Page", madoff.wiki_link, target: :_blank ) %> 
   </p>
 
   <p>
     <strong>Upvotes:</strong>
-    <%= madoff.upvotes %>
+    <%= madoff.upvotes || 0 %>
   </p>
+  <div>
+    <%= link_to "Upvote", upvote_madoff_path(madoff), data: { "turbo-method": :post } %>
+  </div>
 
   <p>
     <strong>Current status:</strong>

@@ -1,9 +1,7 @@
 <h1>New madoff</h1>
 
-<%= render "form", madoff: @madoff %>
+<%= turbo_frame_tag "new_madoff", target: "_top" do %>
+  <%= render "form", madoff: @madoff %>
 
-<br>
-
-<div>
-  <%= link_to "Back to madoffs", madoffs_path %>
-</div>
+  <br>
+<% end %> 
