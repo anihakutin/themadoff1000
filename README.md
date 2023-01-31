@@ -1,24 +1,7 @@
-# README
+# TheMadoff1000
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TheMadoff1000.com which is a ranking of all the best scammers, grifters, and con artists. Stole the idea from Shaan Puri's LinkedIn post here: https://www.linkedin.com/posts/shaanpuri_instead-of-the-forbes-30-under-30-we-need-activity-7025885354536632320-eME2?utm_source=share&utm_medium=member_desktop
 
-Things you may want to cover:
+Think about the Forbes list but for people who have scammed people out of their money. The list would be ranked by the amount of money they have scammed.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ironically many of these people first appeared on the Forbes 30 under 30 list or similar list.
