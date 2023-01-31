@@ -5,3 +5,6 @@ TheMadoff1000.com which is a ranking of all the best scammers, grifters, and con
 Think about the Forbes list but for people who have scammed people out of their money. The list would be ranked by the amount of money they have scammed.
 
 Ironically many of these people first appeared on the Forbes 30 under 30 list or similar list.
+
+## About the author
+Heshie Brody was a founding engineer at Capable Health until it ran out of money last week, he's open for work and can be reached at 4hbrody@gmail.com or on LinkedIn: https://www.linkedin.com/in/heshiebrody/
